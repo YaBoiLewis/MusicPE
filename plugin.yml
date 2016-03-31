@@ -1,0 +1,11 @@
+---
+name: Status
+author: ImagicalGamer
+version: "1.0"
+api: [2.0.0]
+main: ImagicalGamer\MusicPE\Main
+commands:
+    listen:
+        usage: /listen
+        description: Listen to music!
+...
