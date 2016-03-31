@@ -1,0 +1,3 @@
+Every hour in real time, a clock chimes.
+
+Every time a player clicks a door, make a doorbell sound.
