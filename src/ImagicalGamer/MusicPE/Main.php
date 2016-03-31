@@ -17,6 +17,11 @@ public function onCommand(CommandSender $sender, Command $cmd, $label, array $ar
         $sender->getLevel()->addSound(new PopSound($player));
         $sender->getLevel()->addSound(new PopSound($player));
         $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
 
 }
 }
