@@ -4,6 +4,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
+use pocketmine\level\sound\PopSound;
 use pocketmine\Player;
 use pocketmine\math\Vector3;
 use pocketmine\network\protocol\LevelEventPacket;
