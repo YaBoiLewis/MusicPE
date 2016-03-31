@@ -15,6 +15,8 @@ class Main extends PluginBase implements Listener{
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
         if($cmd->getName() == "listen"){
         $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
+        $sender->getLevel()->addSound(new PopSound($player));
 
 }
 }
