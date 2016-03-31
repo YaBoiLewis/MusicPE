@@ -10,7 +10,7 @@ use pocketmine\network\protocol\LevelEventPacket;
 use pocketmine\level\sound\GenericSound;
 class Main extends PluginBase implements Listener{
   public function onEnable(){
-    this->getServer()->getPluginManager()->registerEvents($this, $this);
+    $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
 public function onCommand(CommandSender $sender, Command $cmd, $label, array $args){
         if($cmd->getName() == "listen"){
